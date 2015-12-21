@@ -13,6 +13,7 @@ mock==1.0.1
 phonenumbers==6.3.0
 Pillow==2.7.0
 purl==1.1
+pycountry==1.18
 pytz==2015.7
 six==1.10.0
 sorl-thumbnail==12.2
