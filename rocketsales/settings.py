@@ -30,7 +30,7 @@ SECRET_KEY = 'otjtf@l#)ajayou!hn%ow)7lb(0sa8n21yrhan8#nf1lx#_x9$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://rocket-sales.in', 'https://rocketsales.in', 'https://r.ckets.org.in']
 
 
 # Application definition
@@ -120,7 +120,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_L10N = True
+USE_L10N = False
 
 USE_TZ = True
 
@@ -129,4 +129,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-COMPRESS_ROOT = '/compress/'
+COMPRESS_ROOT = '/build/'
