@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from oscar.app import application
+from oscar.app import cms
 
 urlpatterns = [
     url(r'^i18n/', include('django.conf.urls.i18n')),
@@ -23,6 +24,6 @@ urlpatterns = [
     # The Django admin is not officially supported; expect breakage.
     # Nonetheless, it's often useful for debugging.
     url(r'^admin/', include(admin.site.urls)),
-
+    url(r'^cms', include(cms.urls)),
     url(r'', include(application.urls)),
 ]
